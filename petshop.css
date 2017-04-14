@@ -113,8 +113,8 @@ div.userbar > ul.signInList > li a:not(.divisor):hover{
 }
 
 .logobar{
+    top:-30px;
 	position: relative;
-	display: inline-block;
 	text-align: center;
 	width: 100%;
     height: auto;
@@ -128,9 +128,11 @@ div.userbar > ul.signInList > li a:not(.divisor):hover{
 }
 
 #logoimg{
-	margin-top: -0.5%;
-	width: 320px;
-	height: 80px;
+    top:-5px;
+	width: 150px;
+	height: 75;
+    margin-left:45%;
+    display: block;
 }
 
 #formbusca{
@@ -818,4 +820,11 @@ image2 {
 
 #btnMain:hover {
     background-color: gray;
+}
+
+#nome {
+	width: 230px;
+	height: 85;
+    background-color: rgba(255, 255, 255,0.5);
+    /*background-color: rgba(0, 0, 0,0.1);*/
 }
