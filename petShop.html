@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title> Pet Shop </title>
+	<link rel = "stylesheet" type="text/css" href="petshop.css"/>
+	<link href="https://www.fontify.me/wf/693cf7e024424b9af926089e4e84c6b4" rel="stylesheet" type="text/css"/>
+	<link href="https://www.fontify.me/wf/3b085f452637bd2f779b6cc2db4972cb" rel="stylesheet" type="text/css"/>
+	<link href="https://www.fontify.me/wf/286485579c18cc33be86ce8fb95c24d1" rel="stylesheet" type="text/css"/>
+	<link href="https://www.fontify.me/wf/bc8e0f71e2449a0b4e9d8b0ad1509259" rel="stylesheet" type="text/css"/>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+
+    <link href="https://fonts.googleapis.com/css?family=Palanquin+Dark" rel="stylesheet">
+
+</head>
+
+<body>
+<div class="page">
+<div class="headFixed">
+<header id = "bagbar">
+	<p id = "bagleft"> <span class= "tw">FRETE GRÁTIS</span> NAS COMPRAS ACIMA DE R$ 300 <span class="tw">|</span> PARCELE EM ATÉ <span class="tw">6X SEM JUROS |</span></p>
+	<p class = "bagright">SACOLA (0)</p>
+	<img id = "bagimg" src = "img/sacola.png" alt = "imagem da sacola"/>
+</header>
+
+<nav>
+ <div class = "userbar">
+	<ul class = "menuList">
+		<li><a href="#Agenda">AGENDA</a></li>
+		<li><a href="servicos.html"><span>SERVIÇOS</span></a></li>
+		<li><a class="refLoja" href="#Loja"><span>LOJA</span></a></li>
+	</ul>
+
+	<ul class = "signInList">
+		<li><a href="cadastro.html">CADASTRE-SE</a></li>
+		<li><a class="divisor">|</a></li>
+		<li><a href="login.html">MEUS DADOS</a></li>
+		<li><a class="divisor">|</a></li>
+		<li><a href="#SignIn">SOBRE NÓS</a></li>
+	</ul>
+
+</div>
+
+<div class = "majorbar">
+	<div class = "logobar">
+		<img id = "logoimg" src = "img/pet3.png" alt = "logo"/>
+
+		<form id = "formbusca">
+			<input type="text" id="busca" name="busca">
+		</form>
+
+		<img id = "searchimg" src = "img/search.png" alt = "botão de procura"/>
+	</div>
+</div>
+
+	<div class = "optionbar">
+		<ul>
+			<li><a href="#Cachorro">CACHORROS</a></li>
+			<li><a href="#Gato">GATOS</a></li>
+			<li><a href="#Passaro">PÁSSAROS</a></li>
+			<li><a href="#Roedores">ROEDORES</a></li>
+			<li><a href="#Outros">OUTROS</a></li>
+		</ul>
+
+	</div>
+</nav>
+</div>
+<section id = "cat">
+
+</section>
+
+<div id = "maisvendidos">
+    <h3 class = "titulo"><span>MAIS BUSCADOS</span></h3>
+
+
+<section id = "selection">
+	<img class = "arrow" src = "img/back.png" alt = "Seta apontando para antes"/>
+
+	<div class = "produto">
+		<img class = "image" src = "img/racao.jpg" alt = "Ração"/>
+		<div class="container">
+			<p class = "descricao">ROYAL CANIN<br><span class = "descricao">Ração</span><br><span class = "preco">R$ 79,80</span><p>
+		</div>
+	</div>
+
+	<div class = "produto">
+		<img class = "image"src = "img/racaogato.jpg" alt = "Ração de gato"/>
+		<div class="container">
+			<p class = "descricao">WHISKAS<br><span class = "descricao">Ração para gatos</span><br><span class = "preco">R$ 62,50</span><p>
+		</div>
+	</div>
+
+	<div class = "produto">
+		<img class = "image"src = "img/pote.jpg" alt = "Pote para ração"/>
+		<div class="container">
+			<p class = "descricao">PETZ<br><span class = "descricao">Vasilha para pets</span><br><span class = "preco">R$ 10,50</span><p>
+		</div>
+	</div>
+
+	<div class = "produto">
+		<img class = "image"src = "img/sache.jpg" alt = "Sache para cães"/>
+		<div class="container">
+			<p class = "descricao">PEDIGREE<br><span class = "descricao">Sache para cães</span><br><span class = "preco">R$ 1,80</span><p>
+		</div>
+	</div>
+
+	<img class = "arrow" src = "img/next.png" alt = "Seta apontando para depois"/>
+</section>
+
+<div id = "linedivider"></div>
+
+
+<section id = "grid">
+	<div class = "gridvertical">
+		<img id = "imggrid1" src = "img/cat.jpg" alt = "Gato mostrando a patinha"/>
+        <div class="center">Ofertas</div>
+	</div>
+
+	<div class = "gridvertical">
+		<div class = "gridhorizontal">
+			<img class = "imggrid2" src = "img/bird.jpg" alt = "Três passaros"/>
+            <div class="center2">Novidades</div>
+		</div>
+
+		<div class = "gridhorizontal">
+			<a><img class = "imggrid2" src = "img/racaocachorro.jpg" alt = "Cachorro comendo"/></a>
+            <div class="center3">Recomendados</div>
+		</div>
+	</div>
+
+</section>
+
+<section id = "selection2">
+    <h1 id="ClientsPets">Ultimos PETs cadastrados:</h1>
+
+	<img class = "arrow" src = "img/back.png" alt = "Seta apontando para antes"/>
+
+	<div class = "produto2">
+		<img class = "image2" src = "img/meme2.jpg" alt = "Ração"/>
+		<div class="container">
+			<p class = "descricao">Abigail<p>
+		</div>
+	</div>
+
+    	<div class = "produto2">
+		<img class = "image2" src = "img/meme10.jpg" alt = "Ração"/>
+		<div class="container">
+			<p class = "descricao">Abelardo<p>
+		</div>
+	</div>
+
+    	<div class = "produto2">
+		<img class = "image2" src = "img/meme4.jpg" alt = "Ração"/>
+		<div class="container">
+			<p class = "descricao">Onix<p>
+		</div>
+	</div>
+
+    	<div class = "produto2">
+		<img class = "image2" src = "img/meme5.jpg" alt = "Ração"/>
+		<div class="container">
+			<p class = "descricao">Floquinho<p>
+		</div>
+	</div>
+
+	<div class = "produto2">
+		<img class = "image2"src = "img/meme6.jpg" alt = "Ração de gato"/>
+		<div class="container">
+			<p class = "descricao">Bugão<p>
+		</div>
+	</div>
+
+	<div class = "produto2">
+		<img class = "image2"src = "img/meme7.jpg" alt = "Pote para ração"/>
+		<div class="container">
+			<p class = "descricao">K-9<p>
+		</div>
+	</div>
+
+	<div class = "produto2">
+		<img class = "image2"src = "img/meme8.jpg" alt = "Sache para cães"/>
+		<div class="container">
+			<p class = "descricao">Totó <p>
+		</div>
+	</div>
+
+	<img class = "arrow" src = "img/next.png" alt = "Seta apontando para depois"/>
+    <h3>Quer seu pet aqui?</h3>
+    <a id="btnMain" href="#">Cadastre</a>
+</section>
+
+
+<footer>
+	<p>Trabalho de WEB</p>
+
+    <p>Adriller, Matheus, Rita, Allan, Hikaro</p>
+
+
+</footer>
+</div>
+</div>
+</body>
+
+</html>
