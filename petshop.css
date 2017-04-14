@@ -123,7 +123,7 @@ div.userbar > ul.signInList > li a:not(.divisor):hover{
 	position: relative;
 	text-align: center;
 	width: 100%;
-    height: auto;
+    height: 70%;
     z-index: 9999;
 }
 
@@ -136,10 +136,11 @@ div.userbar > ul.signInList > li a:not(.divisor):hover{
 }
 
 #logoimg{
-    top:-5px;
-	width: 150px;
-	height: 75;
-    margin-left:45%;
+    position:absolute;
+    top:9%;
+	width: 120px;
+	height: 65;
+    margin-left:44.5%;
     display: block;
 }
 
@@ -836,8 +837,11 @@ image2 {
 }
 
 #nome {
-	width: 230px;
-	height: 85;
+    position: absolute;
+    top:70%;
+    left:42%;
+	width: 200px;
+	height: 70;
     background-color: rgba(255, 255, 255,0.5);
     /*background-color: rgba(0, 0, 0,0.1);*/
 }
