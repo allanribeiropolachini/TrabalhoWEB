@@ -117,9 +117,6 @@ button:hover {
       <label><b>Nome Animal</b></label>
       <input type="text" placeholder="Enter Username" name="uname" required>
 
-      <label><b>ID CLiente</b></label>
-      <input type="text" placeholder="Enter ID" name="uname" required>
-
       <label><b>ID animal</b></label>
       <input type="text" placeholder="Enter Email" name="uname" required>
       
@@ -132,10 +129,13 @@ button:hover {
 	  <label><b>Selecione a foto</b></label>
 		<input type="file" name="user-foto" /><br />
 		<input type="submit" value="Upload" id="btncadPet" />
-        <div id="cadPetPerm">
-            <input type="checkbox" name="perm" value="permission">
-            <label>Permito meu PET ser visto publicamente</label>
-        </div>
+	     
+        <label><b>Permito meu pet ser visto publicamente</b></label>
+ 		<input type="radio" name="genre" value="sim"
+ 		checked="checked" /> Sim
+ 		<input type="radio" name="genre" value="nao" /> Não
+		</p>
+
         
 
       <button type="submit">Cadastro</button>
