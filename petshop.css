@@ -3,6 +3,7 @@
 .tw{
 	color: white;
 	font-family: font121731;
+    letter-spacing: 0.1em;
 }
 
 #bagbar{
@@ -22,6 +23,7 @@
     float:left;
 	padding-left: 10px;
 	line-height: 100%;
+    word-spacing: 0.1em;
 }
 
 .bagright{
@@ -91,7 +93,8 @@ div.userbar > ul > li a:not(.divisor){
 
 div.userbar > ul > li a.divisor{
 	display: inline-block;
-	padding-top: 6px;
+    position: absolute;
+	padding-top: 0.8%;
 }
 
 div.userbar > ul.menuList > li a:hover{
@@ -280,9 +283,11 @@ div > h3.titulo > span{
 .produto .image{
 	width: 100%;
 	height: 70%;
-    padding: 10px;
-    max-height: 350px;
-    max-width: 250px;
+    padding-top: 3%;
+    max-height: 340px;
+    max-width: 200px;
+        object-position: center;
+    object-fit:fill;
 }
 
 p.decricao{
