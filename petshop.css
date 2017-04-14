@@ -1034,3 +1034,26 @@ image2 {
     width: 100px;
 	height: 100px;
 }
+
+#btncadPet {
+    margin-top:10px;
+}
+
+
+
+#cadPetPerm {
+    position: relative;
+    margin:20px;
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+#laberPerm {
+    display: inline-block;
+}
+
+#ckbxperm {
+
+    display: inline-block;
+}
