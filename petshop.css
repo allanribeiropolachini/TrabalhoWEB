@@ -1078,8 +1078,8 @@ image2 {
     position: relative;
     margin:20px;
     width: 100%;
-    height: auto;
-    text-align: center;
+    height: 50px;;
+    display: block;
 }
 
 #laberPerm {
@@ -1117,4 +1117,14 @@ image2 {
 .prod-recomend:hover {
     background-color: black;
     color:white;
+}
+
+.marker_ckeckbox {
+ float:right;
+ position: relative;
+ top: -35px;
+}
+
+.marker_label {
+   display:block;
 }
