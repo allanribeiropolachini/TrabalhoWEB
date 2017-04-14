@@ -859,6 +859,8 @@ image2 {
 
 .cao-container {
     text-align: center;
+    height:30%;
+    width:100%;
 }
 
 .cao-menu{
@@ -923,6 +925,7 @@ image2 {
     width:100%;
     height:100%;
     background-color: rgba(0, 0, 0, 0.2);
+    overflow: scroll;
 }
 
 .desc-img-bg {
@@ -947,7 +950,7 @@ image2 {
     position: relative;
     left:10%;
     width: 80%;
-    height: 1000px;
+    height: 180%;
     background-color: white;
 }
 
@@ -965,7 +968,7 @@ image2 {
     margin:0;
     top:45%;
     left:15%;
-    width:100%;
+    width:75%;
     height: 300px;
 }
 
@@ -988,10 +991,40 @@ image2 {
 .descr-item2 p {
     width: 100%;
    margin-left: 0%;
-    float:left;
     top:-20%;
 }
 
 #selection a {
     text-decoration: none;
+}
+
+.relIA {
+    text-align: center;
+    position: absolute;
+    margin:0;
+    top:70%;
+    left:5%;
+    width:90%;
+    height: auto;
+}
+
+.descr-item h2 {
+    float:left;
+}
+
+.row-recomend {
+    width: 100%;
+    height:auto;
+}
+
+.prod-recomend {
+    width:20%;
+    margin:10px;
+    height:auto;
+    display: inline-block;
+}
+
+.image-recomend {
+    width: 70%;
+	height: 70%;
 }
