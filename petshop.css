@@ -1226,7 +1226,8 @@ image2 {
     position: relative;
     top:200px;
     width: 100%;
-    height:1000px;
+    height:auto;
+    overflow: auto;
     background-color: rgba(0, 0, 0, 0.2);
     text-align: center;
 }
@@ -1234,7 +1235,8 @@ image2 {
 .cartCenter {
     position: relative;
     width:80%;
-    height: inherit;
+    height: auto;
+    overflow: auto;
     left:10%;
     background-color: white;
 }
@@ -1252,7 +1254,7 @@ image2 {
     position: relative;
     width:80%;
     left:10%;
-    top:17%;
+    top:150px;
     height:auto;
     border: 2px solid black;
 
@@ -1405,7 +1407,7 @@ image2 {
      position: relative;
     width:80%;
     left:10%;
-    top:17%;
+    top:150px;
     height:35px;
     background-color:black;
     border: 2px solid black;
@@ -1417,4 +1419,84 @@ image2 {
     margin-left: 72%;
     width:25%;
     font-size:25px;
+}
+
+.kartPay {
+    position: relative;
+    top:180px;
+    left:2%;
+    width: 50%;
+    height: 350px;
+    border: 1px solid black;
+    float:left;
+    margin-bottom: 2%;
+}
+
+.kartPayD {
+    position: relative;
+    top:180px;;
+    margin-left:5%;
+    width: 42.5%;
+    height: 300px;
+    border: 1px solid black;
+    float:left;
+}
+
+.pPayment {
+    margin-top:16%;
+}
+
+.inoutPayment {
+    width:50%;
+    margin-left:0%;
+}
+
+.pPaymentE {
+    margin-top:16%;
+    margin-left:0%;
+    width:20%;
+}
+
+.inoutPaymentE {
+    width:50%;
+    float:left;
+    margin-left: 1%;
+}
+
+
+
+.paymentIn {
+        margin-left:0%;
+    width:20%;
+    margin-top:8%;
+}
+
+.cartoes {
+    width:90%;
+    height: 80px;
+    margin-top:3%;
+    margin-left: 5%;
+}
+
+.cartFin {
+    position: relative;
+    top: 490px;
+    width:43%;
+    height: 40px;
+    margin-left: 55%;
+    background-color: black;
+    color:white;
+    text-align: center;
+}
+
+.cartFin:hover {
+    background-color:white;
+    color:black;
+}
+
+#FinPay {
+    position: absolute;
+    font-size: 25px;
+    margin-left: 43%;
+    margin-top:1%;
 }
