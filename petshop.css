@@ -31,6 +31,8 @@
 	float: right;
 	padding-right: 30px;
 	line-height: 100%;
+    text-decoration: none;
+    color:white;
 }
 
 #bagimg{
@@ -306,6 +308,7 @@ span.descricao{
 	font-size: 16px;
     text-transform: uppercase;
     text-decoration: none;
+    color:black;
 }
 
 span.preco{
@@ -550,6 +553,7 @@ html, body {
 h1, h2, a {
   font-family: 'Oswald', sans-serif;
   text-transform: uppercase;
+    text-decoration: none;
 }
 
 p {
@@ -1010,6 +1014,7 @@ image2 {
 
 .descricao {
     text-transform: uppercase;
+    color:black;
 }
 
 .cao-produto:hover {
