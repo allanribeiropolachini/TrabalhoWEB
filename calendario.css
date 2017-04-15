@@ -56,11 +56,12 @@ p.bagright:hover{
 }
 
 div.userbar > ul{
-	display: inline-block;
+    position: absolute;
+    top: 24.5%;
 	list-style-type: none;
-	margin: 0;
 	padding: 0;
 	overflow: hidden;
+    text-align: center;
 }
 
 ul.menuList > li{
@@ -109,11 +110,10 @@ div.userbar > ul.signInList > li a:not(.divisor):hover{
 }
 
 .majorbar{
-	position: absolute;
-	display: block;
+	position: relative;
 	right: 0px;
 	width: 100%;
-	height: 19%;
+	height: 40px;
 	top: 10%;
 	background-image: url("img/Pets.svg");
 	background-size: 130px 130px;
@@ -138,6 +138,7 @@ div.userbar > ul.signInList > li a:not(.divisor):hover{
 	height: 5%;
 	top: 24.5%;
 	right:0;
+    text-align: center;
 }
 
 #logoimg{
