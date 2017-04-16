@@ -56,7 +56,7 @@ span.psw {
 
 /* The Modal (background) */
 .modal {
-    display: none; /* Hidden by default */
+    /*display: none; /* Hidden by default */
     position: fixed; /* Stay in place */
     z-index: 1; /* Sit on top */
     left: 0;
@@ -99,7 +99,7 @@ span.psw {
 
 
 
-<button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Cadastro</button>
+<!--<button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Cadastro</button>-->
 
 <div id="id01" class="modal">
   
@@ -124,14 +124,10 @@ span.psw {
  		<input type="radio" name="genre" value="masc"
  		checked="checked" /> Masculino
  		<input type="radio" name="genre" value="fem" /> Feminino
-		</p>
 
 	  <label><b>Selecione sua foto</b></label>
 		<input type="file" name="user-foto" /><br />
-		<input type="submit" value="Upload" />  
-        </p>
-        </p>
-        
+		<input type="submit" value="Upload" />
         
       <button type="submit">Cadastre-se</button>
     </div>
@@ -142,17 +138,16 @@ span.psw {
   </form>
 </div>
 
+<!--
 <script>
-// Get the modal
 var modal = document.getElementById('id01');
 
-// When the user clicks anywhere outside of the modal, close it
 window.onclick = function(event) {
     if (event.target == modal) {
         modal.style.display = "none";
     }
 }
 </script>
-
+-->
 </body>
 </html>
