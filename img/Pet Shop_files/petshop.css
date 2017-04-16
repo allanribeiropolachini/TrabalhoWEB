@@ -1511,3 +1511,71 @@ image2 {
     text-decoration: none;
     color: white;
 }
+
+footer{
+	position: absolute;
+	top: 150%;
+	width: 100%;
+	left: 0;
+	height: 10%;
+	background-color: rgb(53, 53, 53);
+}
+
+#sectioncalendar {
+    position: absolute;
+    width: 70%;
+    height: 100%;
+    top: 70px;
+    left: 15%;
+    box-sizing: border-box;
+}
+
+#calendarioimg {
+    width: 100%;
+    height:100%;
+}
+
+#titlecalendar {
+    position: absolute;
+    width: 98%;
+    height: 20%;
+    top: 50px;
+    text-align: center;
+    line-height: 95%;
+    font-family: font83056;
+    left: 2%;
+    box-sizing: border-box;
+    background-image: url("img/branchtree.png");
+    background-size: 310px 180px;
+    background-repeat: no-repeat;
+    background-position: 50% -60%;
+}
+
+.titulo {
+    font-size: 22px;
+}
+
+.subtitulo {
+    font-size: 12px;
+}
+
+.overlaycalendar{
+    position: absolute;
+    display: none;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    box-sizing: border-box;
+    z-index: 10000;
+}
+
+#sectioncalendar:hover .overlaycalendar {
+    display:inline-block;
+}
+
+#agendaimg {
+    width: 100%;
+    height:100%;
+}
